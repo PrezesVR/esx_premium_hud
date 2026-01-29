@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud">
+    <div class="bar hp">HP</div>
+    <div class="bar armor">ARMOR</div>
+    <div class="bar stamina">STAMINA</div>
+</div>
+
+<div id="menu" class="hidden">
+    <h2>HUD</h2>
+    <button onclick="setPreset('premium')">Premium Neon</button>
+    <button onclick="setPreset('clean')">Clean Dark</button>
+    <button onclick="setPreset('flat')">Minimal Flat</button>
+    <button onclick="closeMenu()">Zamknij</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
